@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: radial-gradient(at top left, rebeccapurple 0%, #3a155f 100%);
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header--home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+}
+.header--home h2 {
+  font-size: 4em;
+}
+.header--home h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.header--home--span {
+  color: #00e6b3;
+}
+.header--home--avatar {
+  position: relative;
+  bottom: 5%;
+}
+
+footer p {
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 40px auto;
+}
+nav--links {
+  display: inline-block;
+  text-align: right;
+}
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  padding-bottom: 2px;
+  border-bottom: 3px solid transparent;
+}
+nav a:hover {
+  border-color: #ff2e93;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff2e93;
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.projects--portfolio {
+  text-align: center;
+}
+.projects--portfolio > h2 {
+  font-size: 3em;
+  margin-top: 80px;
+}
+.projects--portfolio > h3 {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.projects--projectlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 80px;
+  margin: 80px 20px;
+}
+.projects--projectlist h3 {
+  text-align: center;
+  margin: 20px auto 0px;
+  font-weight: 500;
+}
+.projects--projectlist p {
+  color: #ccc;
+  margin-top: 4px;
+}
+
+/*# sourceMappingURL=main.css.map */

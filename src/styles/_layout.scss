@@ -1,0 +1,62 @@
+// Layouts
+@use 'base' as b;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: b.$primary-color;
+}
+
+html {
+  min-height: 100%;
+}
+body {
+  min-height: 100%;
+  background: radial-gradient(
+    at top left,
+    rgb(102, 51, 153) 0%,
+    /* Official Gatsby color */ rgb(58, 21, 95) 100%
+  );
+  background-repeat: no-repeat;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header--home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  align-items: center;
+
+  h2 {
+    font-size: 4em;
+  }
+  h3 {
+    font-size: 3em;
+    font-weight: b.$normal-font;
+    margin-bottom: 20px;
+  }
+  &--span {
+    color: b.$secondary-background-color;
+  }
+  &--avatar {
+    position: relative;
+    bottom: 5%;
+  }
+}
+
+footer {
+  p {
+    text-align: center;
+    color: b.$footer-font-color;
+    margin: b.$margin;
+  }
+}
