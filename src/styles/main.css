@@ -55,6 +55,22 @@ footer p {
   margin: 40px auto;
 }
 
+.project--details h2 {
+  font-size: 100px;
+  margin-top: 80px;
+}
+.project--details h3 {
+  font-size: 4em;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.project--details--html {
+  margin-top: 40px;
+}
+.project--details--featured {
+  margin-bottom: 40px;
+}
+
 nav {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -95,7 +111,6 @@ nav a:hover {
   font-size: 2em;
   font-weight: 400;
 }
-
 .projects--projectlist {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
