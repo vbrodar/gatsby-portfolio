@@ -4,7 +4,7 @@ stack: HTML, CSS & React
 slug: weather-app
 date: 2020-10-21
 thumb: ../images/thumbs/weatherapp.png
-featuredImg: ../images/featured/weather-app.png
+featuredImg: ../images/featured/weatherapp.png
 ---
 
 Weather app widget created using HTML,CSS, React and OpenWeatherMap API.

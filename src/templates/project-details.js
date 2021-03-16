@@ -7,6 +7,7 @@ import { graphql } from "gatsby"
 export default function ProjectDetails({ data }) {
   const { html } = data.markdownRemark
   const { title, stack, featuredImg } = data.markdownRemark.frontmatter
+
   return (
     <Layout>
       <div className="project--details">

@@ -4,7 +4,7 @@ stack: HTML, CSS & React
 slug: react-todo-list
 date: 2020-10-14
 thumb: ../images/thumbs/todolist.png
-featuredImg: ../images/featured/react-todo-list.png
+featuredImg: ../images/featured/todolist.png
 ---
 
 Simple React Todo list project. Created using HTML, CSS & React.

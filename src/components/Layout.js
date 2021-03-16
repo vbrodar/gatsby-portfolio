@@ -12,7 +12,9 @@ export default function Layout({ children }) {
       {/*This will render everything
       from index.js that is between Layout tags */}
       <footer>
-        <p>Copyright © {currentYear}</p>
+        <p>
+          Copyright <span className="header--home--span">©</span> {currentYear}
+        </p>
       </footer>
     </div>
   )

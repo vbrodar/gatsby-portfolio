@@ -70,6 +70,10 @@ footer p {
 .project--details--featured {
   margin-bottom: 40px;
 }
+.project--details--link {
+  color: #00e6b3;
+  font-size: 1.5em;
+}
 
 nav {
   display: grid;

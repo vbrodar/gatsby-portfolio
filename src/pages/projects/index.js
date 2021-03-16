@@ -31,6 +31,17 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
+        <p>
+          More projects on
+          <a
+            href="https://github.com/vbrodar"
+            color="b.$button-background-color"
+            target="_blank"
+            rel="noreferrer"
+          >
+             Github
+          </a>
+        </p>
         <p>If you like what you see contact me @ {contact} </p>
       </div>
     </Layout>

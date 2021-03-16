@@ -9,4 +9,4 @@ featuredImg: ../images/featured/blog.png
 
 One of my first frontend projects. Made using HTML, CSS and React Create React App.
 
-[Click to see project repo](https://github.com/vbrodar/react-todo-list)
+[Click to see project repo](https://github.com/vbrodar/blog-app)
