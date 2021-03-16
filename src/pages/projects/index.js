@@ -32,17 +32,8 @@ export default function Projects({ data }) {
           ))}
         </div>
         <p>
-          More projects on
-          <a
-            href="https://github.com/vbrodar"
-            color="b.$button-background-color"
-            target="_blank"
-            rel="noreferrer"
-          >
-             Github
-          </a>
+          Contact me: <span className="projects--email">{contact}</span>
         </p>
-        <p>If you like what you see contact me @ {contact} </p>
       </div>
     </Layout>
   )

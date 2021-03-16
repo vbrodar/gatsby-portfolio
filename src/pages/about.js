@@ -7,22 +7,23 @@ export default function About() {
       <div>
         <h1>About Page</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          harum iusto eos quo, provident explicabo veniam tenetur recusandae
-          aliquam rem non praesentium eaque maiores repellat quae delectus
-          labore, ad impedit.
+          Hi, my name is Vedran and i am frontend developer from Osijek,
+          Croatia. <br />I have BA in Information Technology and i love to learn
+          everyday!
+          <br /> In my free time i teach Arduino, ride bike and play video
+          games.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          harum iusto eos quo, provident explicabo veniam tenetur recusandae
-          aliquam rem non praesentium eaque maiores repellat quae delectus
-          labore, ad impedit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          perspiciatis ex laboriosam, adipisci repellat dicta, voluptatibus,
+          cumque ipsa quisquam atque quaerat deserunt inventore minima fugiat
+          rerum itaque corrupti dolor sint!
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          harum iusto eos quo, provident explicabo veniam tenetur recusandae
-          aliquam rem non praesentium eaque maiores repellat quae delectus
-          labore, ad impedit.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          perspiciatis ex laboriosam, adipisci repellat dicta, voluptatibus,
+          cumque ipsa quisquam atque quaerat deserunt inventore minima fugiat
+          rerum itaque corrupti dolor sint!
         </p>
       </div>
     </Layout>
